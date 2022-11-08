@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C67A4BCA291AA157008AC16B /* DayzerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BC9291AA157008AC16B /* DayzerApp.swift */; };
+		C67A4BCC291AA157008AC16B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BCB291AA157008AC16B /* ContentView.swift */; };
+		C67A4BCE291AA15A008AC16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67A4BCD291AA15A008AC16B /* Assets.xcassets */; };
+		C67A4BD1291AA15A008AC16B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67A4BD0291AA15A008AC16B /* Preview Assets.xcassets */; };
+		C67A4BDB291AA15B008AC16B /* DayzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BDA291AA15B008AC16B /* DayzerTests.swift */; };
+		C67A4BE5291AA15B008AC16B /* DayzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BE4291AA15B008AC16B /* DayzerUITests.swift */; };
+		C67A4BE7291AA15B008AC16B /* DayzerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BE6291AA15B008AC16B /* DayzerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C67A4BD7291AA15B008AC16B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67A4BBE291AA157008AC16B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67A4BC5291AA157008AC16B;
+			remoteInfo = Dayzer;
+		};
+		C67A4BE1291AA15B008AC16B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67A4BBE291AA157008AC16B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67A4BC5291AA157008AC16B;
+			remoteInfo = Dayzer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C67A4BC6291AA157008AC16B /* Dayzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dayzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67A4BC9291AA157008AC16B /* DayzerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayzerApp.swift; sourceTree = "<group>"; };
+		C67A4BCB291AA157008AC16B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C67A4BCD291AA15A008AC16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C67A4BD0291AA15A008AC16B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C67A4BD6291AA15B008AC16B /* DayzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67A4BDA291AA15B008AC16B /* DayzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayzerTests.swift; sourceTree = "<group>"; };
+		C67A4BE0291AA15B008AC16B /* DayzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayzerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67A4BE4291AA15B008AC16B /* DayzerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayzerUITests.swift; sourceTree = "<group>"; };
+		C67A4BE6291AA15B008AC16B /* DayzerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayzerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C67A4BC3291AA157008AC16B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67A4BD3291AA15B008AC16B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67A4BDD291AA15B008AC16B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C67A4BBD291AA157008AC16B = {
+			isa = PBXGroup;
+			children = (
+				C67A4BC8291AA157008AC16B /* Dayzer */,
+				C67A4BD9291AA15B008AC16B /* DayzerTests */,
+				C67A4BE3291AA15B008AC16B /* DayzerUITests */,
+				C67A4BC7291AA157008AC16B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C67A4BC7291AA157008AC16B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67A4BC6291AA157008AC16B /* Dayzer.app */,
+				C67A4BD6291AA15B008AC16B /* DayzerTests.xctest */,
+				C67A4BE0291AA15B008AC16B /* DayzerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67A4BC8291AA157008AC16B /* Dayzer */ = {
+			isa = PBXGroup;
+			children = (
+				C67A4BC9291AA157008AC16B /* DayzerApp.swift */,
+				C67A4BCB291AA157008AC16B /* ContentView.swift */,
+				C67A4BCD291AA15A008AC16B /* Assets.xcassets */,
+				C67A4BCF291AA15A008AC16B /* Preview Content */,
+			);
+			path = Dayzer;
+			sourceTree = "<group>";
+		};
+		C67A4BCF291AA15A008AC16B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C67A4BD0291AA15A008AC16B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C67A4BD9291AA15B008AC16B /* DayzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C67A4BDA291AA15B008AC16B /* DayzerTests.swift */,
+			);
+			path = DayzerTests;
+			sourceTree = "<group>";
+		};
+		C67A4BE3291AA15B008AC16B /* DayzerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C67A4BE4291AA15B008AC16B /* DayzerUITests.swift */,
+				C67A4BE6291AA15B008AC16B /* DayzerUITestsLaunchTests.swift */,
+			);
+			path = DayzerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67A4BC5291AA157008AC16B /* Dayzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67A4BEA291AA15B008AC16B /* Build configuration list for PBXNativeTarget "Dayzer" */;
+			buildPhases = (
+				C67A4BC2291AA157008AC16B /* Sources */,
+				C67A4BC3291AA157008AC16B /* Frameworks */,
+				C67A4BC4291AA157008AC16B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dayzer;
+			productName = Dayzer;
+			productReference = C67A4BC6291AA157008AC16B /* Dayzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C67A4BD5291AA15B008AC16B /* DayzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67A4BED291AA15B008AC16B /* Build configuration list for PBXNativeTarget "DayzerTests" */;
+			buildPhases = (
+				C67A4BD2291AA15B008AC16B /* Sources */,
+				C67A4BD3291AA15B008AC16B /* Frameworks */,
+				C67A4BD4291AA15B008AC16B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67A4BD8291AA15B008AC16B /* PBXTargetDependency */,
+			);
+			name = DayzerTests;
+			productName = DayzerTests;
+			productReference = C67A4BD6291AA15B008AC16B /* DayzerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C67A4BDF291AA15B008AC16B /* DayzerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67A4BF0291AA15B008AC16B /* Build configuration list for PBXNativeTarget "DayzerUITests" */;
+			buildPhases = (
+				C67A4BDC291AA15B008AC16B /* Sources */,
+				C67A4BDD291AA15B008AC16B /* Frameworks */,
+				C67A4BDE291AA15B008AC16B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67A4BE2291AA15B008AC16B /* PBXTargetDependency */,
+			);
+			name = DayzerUITests;
+			productName = DayzerUITests;
+			productReference = C67A4BE0291AA15B008AC16B /* DayzerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C67A4BBE291AA157008AC16B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C67A4BC5291AA157008AC16B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					C67A4BD5291AA15B008AC16B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C67A4BC5291AA157008AC16B;
+					};
+					C67A4BDF291AA15B008AC16B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C67A4BC5291AA157008AC16B;
+					};
+				};
+			};
+			buildConfigurationList = C67A4BC1291AA157008AC16B /* Build configuration list for PBXProject "Dayzer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67A4BBD291AA157008AC16B;
+			productRefGroup = C67A4BC7291AA157008AC16B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67A4BC5291AA157008AC16B /* Dayzer */,
+				C67A4BD5291AA15B008AC16B /* DayzerTests */,
+				C67A4BDF291AA15B008AC16B /* DayzerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67A4BC4291AA157008AC16B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67A4BD1291AA15A008AC16B /* Preview Assets.xcassets in Resources */,
+				C67A4BCE291AA15A008AC16B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67A4BD4291AA15B008AC16B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67A4BDE291AA15B008AC16B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C67A4BC2291AA157008AC16B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67A4BCC291AA157008AC16B /* ContentView.swift in Sources */,
+				C67A4BCA291AA157008AC16B /* DayzerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67A4BD2291AA15B008AC16B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67A4BDB291AA15B008AC16B /* DayzerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67A4BDC291AA15B008AC16B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67A4BE5291AA15B008AC16B /* DayzerUITests.swift in Sources */,
+				C67A4BE7291AA15B008AC16B /* DayzerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C67A4BD8291AA15B008AC16B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67A4BC5291AA157008AC16B /* Dayzer */;
+			targetProxy = C67A4BD7291AA15B008AC16B /* PBXContainerItemProxy */;
+		};
+		C67A4BE2291AA15B008AC16B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67A4BC5291AA157008AC16B /* Dayzer */;
+			targetProxy = C67A4BE1291AA15B008AC16B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C67A4BE8291AA15B008AC16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C67A4BE9291AA15B008AC16B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67A4BEB291AA15B008AC16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dayzer/Preview Content\"";
+				DEVELOPMENT_TEAM = YXJVC295BN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Dayzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C67A4BEC291AA15B008AC16B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dayzer/Preview Content\"";
+				DEVELOPMENT_TEAM = YXJVC295BN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Dayzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C67A4BEE291AA15B008AC16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXJVC295BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DayzerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dayzer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dayzer";
+			};
+			name = Debug;
+		};
+		C67A4BEF291AA15B008AC16B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXJVC295BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DayzerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dayzer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dayzer";
+			};
+			name = Release;
+		};
+		C67A4BF1291AA15B008AC16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXJVC295BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DayzerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dayzer;
+			};
+			name = Debug;
+		};
+		C67A4BF2291AA15B008AC16B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YXJVC295BN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DayzerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dayzer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C67A4BC1291AA157008AC16B /* Build configuration list for PBXProject "Dayzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67A4BE8291AA15B008AC16B /* Debug */,
+				C67A4BE9291AA15B008AC16B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67A4BEA291AA15B008AC16B /* Build configuration list for PBXNativeTarget "Dayzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67A4BEB291AA15B008AC16B /* Debug */,
+				C67A4BEC291AA15B008AC16B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67A4BED291AA15B008AC16B /* Build configuration list for PBXNativeTarget "DayzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67A4BEE291AA15B008AC16B /* Debug */,
+				C67A4BEF291AA15B008AC16B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67A4BF0291AA15B008AC16B /* Build configuration list for PBXNativeTarget "DayzerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67A4BF1291AA15B008AC16B /* Debug */,
+				C67A4BF2291AA15B008AC16B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C67A4BBE291AA157008AC16B /* Project object */;
+}
