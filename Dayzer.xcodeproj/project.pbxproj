@@ -14,6 +14,12 @@
 		C67A4BDB291AA15B008AC16B /* DayzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BDA291AA15B008AC16B /* DayzerTests.swift */; };
 		C67A4BE5291AA15B008AC16B /* DayzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BE4291AA15B008AC16B /* DayzerUITests.swift */; };
 		C67A4BE7291AA15B008AC16B /* DayzerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BE6291AA15B008AC16B /* DayzerUITestsLaunchTests.swift */; };
+		C67A4BF5291AA1AC008AC16B /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BF4291AA1AC008AC16B /* CustomColor.swift */; };
+		C67A4BF8291AA693008AC16B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BF7291AA693008AC16B /* HeaderView.swift */; };
+		C67A4BFD291AAC04008AC16B /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67A4BFC291AAC04008AC16B /* HomePageView.swift */; };
+		C67AD315291D2BF400EEC56B /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AD314291D2BF400EEC56B /* GetStartedView.swift */; };
+		C67AD318291D2CAD00EEC56B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AD317291D2CAD00EEC56B /* People.swift */; };
+		C67AD31A291D2D6D00EEC56B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AD319291D2D6D00EEC56B /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		C67A4BE0291AA15B008AC16B /* DayzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayzerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67A4BE4291AA15B008AC16B /* DayzerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayzerUITests.swift; sourceTree = "<group>"; };
 		C67A4BE6291AA15B008AC16B /* DayzerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayzerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C67A4BF4291AA1AC008AC16B /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		C67A4BF7291AA693008AC16B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C67A4BFC291AAC04008AC16B /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		C67AD314291D2BF400EEC56B /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		C67AD317291D2CAD00EEC56B /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		C67AD319291D2D6D00EEC56B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,10 @@
 		C67A4BC8291AA157008AC16B /* Dayzer */ = {
 			isa = PBXGroup;
 			children = (
+				C67AD316291D2C9B00EEC56B /* Model */,
+				C67A4BFB291AABEC008AC16B /* View */,
+				C67A4BF6291AA681008AC16B /* Components */,
+				C67A4BF3291AA19B008AC16B /* Helpers */,
 				C67A4BC9291AA157008AC16B /* DayzerApp.swift */,
 				C67A4BCB291AA157008AC16B /* ContentView.swift */,
 				C67A4BCD291AA15A008AC16B /* Assets.xcassets */,
@@ -125,6 +141,40 @@
 				C67A4BE6291AA15B008AC16B /* DayzerUITestsLaunchTests.swift */,
 			);
 			path = DayzerUITests;
+			sourceTree = "<group>";
+		};
+		C67A4BF3291AA19B008AC16B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C67A4BF4291AA1AC008AC16B /* CustomColor.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C67A4BF6291AA681008AC16B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C67A4BF7291AA693008AC16B /* HeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C67A4BFB291AABEC008AC16B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C67A4BFC291AAC04008AC16B /* HomePageView.swift */,
+				C67AD314291D2BF400EEC56B /* GetStartedView.swift */,
+				C67AD319291D2D6D00EEC56B /* DashboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C67AD316291D2C9B00EEC56B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C67AD317291D2CAD00EEC56B /* People.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +308,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C67A4BCC291AA157008AC16B /* ContentView.swift in Sources */,
+				C67AD31A291D2D6D00EEC56B /* DashboardView.swift in Sources */,
+				C67AD315291D2BF400EEC56B /* GetStartedView.swift in Sources */,
 				C67A4BCA291AA157008AC16B /* DayzerApp.swift in Sources */,
+				C67A4BF5291AA1AC008AC16B /* CustomColor.swift in Sources */,
+				C67A4BF8291AA693008AC16B /* HeaderView.swift in Sources */,
+				C67A4BFD291AAC04008AC16B /* HomePageView.swift in Sources */,
+				C67AD318291D2CAD00EEC56B /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
